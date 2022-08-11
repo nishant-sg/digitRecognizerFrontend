@@ -1,6 +1,6 @@
 .main{
     height:100vh; 
-    background-color: #eb3515;
+    background-color: #282A36;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,8 +11,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     border: 5px solid black;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.main-board-buttons{
+    margin:5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .main-board-column {
@@ -26,7 +40,7 @@
 }
 
 .e-block {
-    background-color: #bfe3ec;
+    background-color: #e3eff1;
     height: 2vh;
     width: 2vh;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -47,8 +61,33 @@
 }
 
 .reset-board {
-    background-color: #eb3515;
-    height: 4vh;
+    background-color: #c92e12;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 10px;
+    padding:7px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+.predict-board {
+    background-color: #50d412;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 10px;
+    padding:7px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.main-graph{
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    width: 40vw;
     border: 2px solid black;
 }
 

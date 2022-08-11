@@ -1,0 +1,16 @@
+.footer {
+    height:35vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-top {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.spacer{
+    background-color:transparent;
+    height:10px;
+    width: 25px;
+}
