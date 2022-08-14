@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       <Header/>
       <Main/>
+      <div className="sep"/>
       <Tutorial/>
+      <div className="sep"/>
       <Footer/>
     </div>
   );

@@ -1,6 +1,9 @@
 .footer {
     height:35vh;
+    background-color: #282A36;
     display:flex;
+    color:white;
+    font-size:20px;
     flex-direction: column;
     justify-content: center;
 }

@@ -126,7 +126,7 @@ function Main() {
                             </div>
                         );
                     })}
-                </div>
+                </div></div><div>
                 <div className="main-board-buttons">
                 <button className="reset-board" onClick={() => { resetBoard() }}> Reset </button>
                 <button className="predict-board" onClick={() => { predictNumber() }}>Predict</button>

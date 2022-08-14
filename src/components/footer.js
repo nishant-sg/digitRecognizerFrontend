@@ -6,15 +6,15 @@ function Footer() {
       <div className="footer-top">
           <div>Connect with me    </div>
           <div className="spacer"/> 
-          <div>linkedIN</div>
+          <div><a href="https://www.linkedin.com/in/nishant-garg-968205208/">LinkedIn</a></div>
           <div className="spacer"/> 
-          <div>github</div>
+          <div><a href="https://github.com/nishant-sg">Github</a></div>
           <div className="spacer"/> 
-          <div>mailID</div>
+          <div><a href="mailto:nishantgarg.sg@gmail.com">MailID</a></div>
           <div className="spacer"/> 
       </div>
       <br/>
-      <div className="footer-bottom">Submit Feedback</div>
+      <div className="footer-bottom">Submit <a href="https://forms.gle/cjJVgbkPJF3jqa7V6">Feedback</a></div>
       
     </div>
   );
